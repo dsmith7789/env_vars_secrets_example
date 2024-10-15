@@ -38,4 +38,4 @@ jobs:
       - name: Output information
         run: |        
           echo "MONGODB_USERNAME = ${{ env.MONGODB_USERNAME }}"   # not available in this job
-          echo "MONGODB_USERNAME = $MONGODB_DB_NAME"              # should be available in this job
+          echo "MONGO_DB_NAME = $MONGO_DB_NAME"              # should be available in this job
